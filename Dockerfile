@@ -20,5 +20,5 @@ COPY . .
 # فتح البورت المطلوب
 EXPOSE 5000
 
-# بدء التطبيق
-CMD ["node", "index.js", "--server"]
+# بدء التطبيق باستخدام npm start
+CMD ["npm", "start"]
